@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/A13038/Works/cyberagent/oslo/oslo-web/lib/service'
+let g:netrw_dirhist_2='/Users/A13038/Works/private/plutejs'
+let g:netrw_dirhist_3='/Users/A13038'
+let g:netrw_dirhist_4='/Users/A13038/.vim'
+let g:netrw_dirhist_5='/Users/A13038/Works/cyberagent/oslo/oslo-inspect/node_modules'
+let g:netrw_dirhist_6='/Users/A13038/Works/bascule/manager'
+let g:netrw_dirhist_7='/Users/A13038/.oh-my-zsh'
+let g:netrw_dirhist_8='/Users/A13038/.ssh'
+let g:netrw_dirhist_9='/Users/A13038/Works/cyberagent/oslo/oslo-batch/conf/data/20140701_add_exp'
