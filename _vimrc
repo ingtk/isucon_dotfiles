@@ -37,6 +37,7 @@ NeoBundle 'pangloss/vim-javascript'
 
 " syntax
 NeoBundle 'jelera/vim-javascript-syntax'
+NeoBundle 'scrooloose/syntastic'
 
 " utility
 NeoBundle 'Shougo/vimproc', {
@@ -162,6 +163,14 @@ endif
 "---------------------------
 " plugin
 "---------------------------
+
+" syntastic
+let g:syntastic_mode_map = { 'mode': 'active',
+  \ 'active_filetypes': ['javascript'],
+  \ 'passive_filetypes': ['html'] }
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_javascript_checkers = ['jshint']
+" let g:syntastic_javascript_jshint_conf = '$HOME/.jshintrc'
 
 " NERD Commenter
 let NERDSpaceDelims = 1
